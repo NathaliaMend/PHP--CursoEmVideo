@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><!--Ler nomem ano de nascimento e sexo de uma pessoa, mostrando sua idade atual. -->
+<body>
+    <div>
+        <form method="get" action="exercicio2.php">
+            Nome: <input type="text" name="nome"/><br/>
+            Ano de Nascimento: <input type="number" name="ano"><br/>
+        <fieldset><!--Fieldset é uma borda--> 
+             <legend>Sexo</legend>
+             <input type="radio" name="sexo" id="masc" value="Homem" checked> <!--o tipo radio sao bolinhas para selecionar--> <!--o atributo checked serve para ficar checado por padrao-->
+             <label for="masc">Masculino</label><br/> <!--Nesse caso é importante que os dois labels tenham o mesmo name-->
+             <input type="radio" name="sexo" id="fem" value="Mulher"> <!--o atributo value serve para colocar o valor que quero que seja enviado-->
+             <label for="fem">Feminino</label>
+        </fieldset>  <br/>
+             <input type="submit" value="Enviar">
+        </form>
+        
+    </div>
+    
+</body>
+</html>
