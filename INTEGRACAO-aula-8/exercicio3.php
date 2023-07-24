@@ -23,6 +23,7 @@
     <?php
         echo "<span class='texto'> $txt </span>";
     ?>
+    <a href="http://127.0.0.1/INTEGRACAO-aula-8/exercicio3.html">Voltar</a>
 </div>
 </body>
 </html>
